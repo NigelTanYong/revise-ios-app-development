@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		067183CF2B7C96C700886B99 /* ColorSliderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 067183CE2B7C96C700886B99 /* ColorSliderView.swift */; };
 		528A931A2AD433E3001A7CAB /* SwiftUIBasicsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A93192AD433E3001A7CAB /* SwiftUIBasicsApp.swift */; };
 		528A931C2AD433E3001A7CAB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528A931B2AD433E3001A7CAB /* ContentView.swift */; };
 		528A931E2AD433E4001A7CAB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528A931D2AD433E4001A7CAB /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		067183CE2B7C96C700886B99 /* ColorSliderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorSliderView.swift; sourceTree = "<group>"; };
 		528A93162AD433E3001A7CAB /* SwiftUIBasics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBasics.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		528A93192AD433E3001A7CAB /* SwiftUIBasicsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIBasicsApp.swift; sourceTree = "<group>"; };
 		528A931B2AD433E3001A7CAB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +37,7 @@
 		528A930D2AD433E2001A7CAB = {
 			isa = PBXGroup;
 			children = (
+				067183CE2B7C96C700886B99 /* ColorSliderView.swift */,
 				528A93182AD433E3001A7CAB /* SwiftUIBasics */,
 				528A93172AD433E3001A7CAB /* Products */,
 			);
@@ -139,6 +142,7 @@
 			files = (
 				528A931C2AD433E3001A7CAB /* ContentView.swift in Sources */,
 				528A931A2AD433E3001A7CAB /* SwiftUIBasicsApp.swift in Sources */,
+				067183CF2B7C96C700886B99 /* ColorSliderView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

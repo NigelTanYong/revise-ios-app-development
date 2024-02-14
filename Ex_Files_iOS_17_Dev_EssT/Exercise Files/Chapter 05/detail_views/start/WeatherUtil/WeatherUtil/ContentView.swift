@@ -14,10 +14,13 @@ struct ContentView: View {
                 HStack {
                     Image(systemName: day.icon)
                     Text("\(day.high)° F")
-                    Text(day.name)
+                    NavigationLink(day.name, value: day)
                 }
             }
             .navigationTitle("New York City")
+            .navigationDestination(for: Day.self){ day in
+                Text(day.name)
+            }
         }
     }
 }

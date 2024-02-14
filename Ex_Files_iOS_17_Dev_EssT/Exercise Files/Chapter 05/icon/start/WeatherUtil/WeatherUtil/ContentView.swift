@@ -14,6 +14,7 @@ struct ContentView: View {
             List(Week.days, id: \.self) { day in
                 HStack {
                     Image(systemName: day.icon)
+                        .foregroundStyle(day.color)
                     Text("\(day.high)° F")
                     NavigationLink(day.name, value: day)
                 }

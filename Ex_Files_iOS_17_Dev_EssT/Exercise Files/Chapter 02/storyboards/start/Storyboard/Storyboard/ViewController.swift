@@ -20,6 +20,10 @@ class ViewController: UIViewController {
 
     }
     
+    @IBAction func nextScreenBtn(_ sender: Any) {
+        let storyboard = self.storyboard?.instantiateViewController(withIdentifier: "ViewController2") as! ViewController2
+        self.navigationController?.pushViewController(storyboard, animated: true)
+    }
     @IBAction func buttonWasPressed(_ sender: UIButton) {
         let name = textField.text ?? ""
         label.text = "Hello, \(name)!"
